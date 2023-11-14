@@ -51,6 +51,7 @@ export default async function Home() {
                 />
               </button>
             </div>
+            <Link href={`habito/${habit}`}>
             <section className='grid grid-cols-7 bg-neutral-800 rounded-md p-2'>
               {sortedWeekDays.map((day, index) => (
                 <div key={day} className='flex flex-col last:font-bold'>
@@ -62,6 +63,7 @@ export default async function Home() {
                 
               ))}
             </section>
+            </Link>
           </div>
         ))}
         <Link
