@@ -13,11 +13,7 @@ function DayState({ day }: { day: boolean | undefined }) {
   const [src, alt, size] = image;
   return (
     <div className="flex items-center justify-center h-9">
-      <Image 
-      src={src} 
-      width={size} 
-      height={size} 
-      alt={alt} />
+      <Image src={src} width={size} height={size} alt={alt} />
     </div>
   );
 }

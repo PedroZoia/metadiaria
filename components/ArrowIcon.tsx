@@ -1,3 +1,5 @@
+import React from "react";
+
 function ArrowIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
